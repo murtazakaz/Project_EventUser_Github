@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="lib/jquery-mobile/css/jquery.mobile-1.4.0.min.css" />
+        <script type="text/javascript" src="lib/jquery-mobile/js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-mobile-router/js/jquery.mobile.router.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-mobile/js/jquery.mobile-1.4.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/jqm-icon-pack-fa.css">
+        <title>Events</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+		<link rel="stylesheet" href="css/demo.css">
+		<link rel="stylesheet" href="css/sky-forms.css">
+  
+    </head>
+    <body style="background-color:white">
+         <div id="signup_page" data-theme="b" data-role="page">
+         <div id="header_home" data-position="fixed" data-tap-toggle="false" data-role="header">
+
+            <h1 style="text-align:left"></h1>
+            <a id="_home" href="#myPanel" class="ui-btn-left" data-icon="bars" style="background-color:#ffa627" data-iconpos="notext">Menu</a>
+            <a id="_home" href="#" style="color: transparent; float:left;background-color:#ffa627"  data-icon="bell" data-iconpos="notext"></a>
+                  <input type="hidden" id="edt_mail" />
+        </div>
+		 <div data-role="panel" style="background:url('img/slider.png')no-repeat;" id="myPanel" data-display="push" data-position="left" data-theme="a">
+            <center><img src="img/profile.png"/>
+			<h5 style="color:white">Lucy</h5></center>
+			<br/><br/>
+			<div style="background:transparent !important;">
+            <ul data-role="listview" data-inset="false"> 
+           <li><a href="events.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture1.PNG"  class="ui-li-icon ">ALL EVENTS</a></li>
+            <li><a href="page6.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture2.PNG"  class="ui-li-icon ">PLANS</a></li>
+            <li><a href="profile.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture3.PNG"  class="ui-li-icon ui-corner-none">FOLLOWED</a></li>
+            <li><a href="explore.html"  data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture4.PNG"  class="ui-li-icon ui-corner-none">EXPLORE</a></li>
+            <li><a href="peopleplace.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/transicon.png"  class="ui-li-icon ui-corner-none">PEOPLE & PLACES</a></li>
+            <li><a href="ticket.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture6.PNG"  class="ui-li-icon ui-corner-none">MY TICKETS</a></li>
+            <li><a href="reward.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture7.PNG"  class="ui-li-icon ui-corner-none">REWARDS</a></li>
+            <li><a href="settings.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture8.PNG"  class="ui-li-icon ui-corner-none">SETTINGS</a></li>
+            <li><a href="index.html"  data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture1.PNG"  class="ui-li-icon ui-corner-none">SIGN OUT</a></li>
+
+       </ul>
+			</div>
+        </div>
+       
+      <div>
+              <img src="img/p1.png" style="width:100%;"/>
+			  <div style="margin-top: -22%;">
+              <center>
+				<a href="#"><img src="img/profile1.png" style="margin-top: -64%;width:27%;"/></a>
+				<h4 style="margin-top: 15px;color:#fff">Martin Prince</h4>
+			  </center>
+			  </div>
+			</div>	
+				<div class="ui-grid-b" style="margin-top:-10px">
+					<div class="ui-block-a">
+                        <div class="ui-bar ui-bar-a" style="height:70px;background-color:#0c396d">
+						<center style="margin-top: -9px;"> 
+							<p style="text-shadow:none;color:#fff;">23</p>
+							<p style="text-shadow:none;color:#fff;">Recipes</p>
+						</center>
+					</div>
+                    </div>
+					
+					<div class="ui-block-b">
+                        <div class="ui-bar ui-bar-a" style="height:70px;background-color:#0c396d">
+						<center style="margin-top: -9px;"> 
+							<p style="text-shadow:none;color:#fff;">190</p>
+							<p style="text-shadow:none;color:#fff;">Following</p>
+						</center>
+					</div>
+                    </div>
+					
+					<div class="ui-block-c">
+                        <div class="ui-bar ui-bar-a" style="height:70px;background-color:#0c396d">
+						<center style="margin-top: -9px;"> 
+							<p style="text-shadow:none;color:#fff;">135</p>
+							<p style="text-shadow:none;color:#fff;">Followers</p>
+						</center>
+					</div>
+                    </div>
+				</div>
+       
+            <div>
+    <a href="eventdetail.html" style="text-decoration:none;"><img src="img/i2.PNG" style="margin-top: 0px;margin-left: 4%;"/></a>
+	<h4 style="margin-left: 70px;margin-top: -43px;">Cold Bodies Warm Machines</h4>
+	<p style="margin-left: 69px;margin-top: -18px;"><img src="img/user.PNG"/> 186  <img src="img/calender.PNG"/> Fri Nov 18, 10:00</p>
+	<img src="img/b3.PNG" style="width:100%;"/>
+	
+	<a href="eventdetail.html" style="text-decoration:none;"><img src="img/i2.PNG" style="margin-left: 20px;margin-top: 5px;"/></a>
+	<h4 style="margin-left: 70px;margin-top: -50px;">Cold Bodies Warm Machines</h4>
+	<p style="margin-left: 70px;margin-top: -15px;"><img src="img/user.PNG"/> 186  <img src="img/calender.PNG"/> Fri Nov 18, 10:00</p>
+	<img src="img/b4.PNG" style="width:100%;"/>
+	
+	<a href="eventdetail.html" style="text-decoration:none;"><img src="img/i2.PNG" style="margin-left: 20px;margin-top: 5px;"/></a>
+	<h4 style="margin-left: 70px;margin-top: -50px;">Cold Bodies Warm Machines</h4>
+	<p style="margin-left: 70px;margin-top: -18px;"><img src="img/user.PNG"/> 186  <img src="img/calender.PNG"/> Fri Nov 18, 10:00</p>
+    </div>
+
+         
+         
+         
+         </div>
+         </body>
+         </html>

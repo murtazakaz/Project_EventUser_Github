@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="lib/jquery-mobile/css/jquery.mobile-1.4.0.min.css" />
+        <script type="text/javascript" src="lib/jquery-mobile/js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-mobile-router/js/jquery.mobile.router.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-mobile/js/jquery.mobile-1.4.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/jqm-icon-pack-fa.css">
+        <title>Event</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+    </head>
+    <body>
+         <div id="signup_page" data-theme="b" data-role="page">
+         <div id="header_home" data-position="fixed" data-tap-toggle="false" data-role="header">
+
+           <center> 
+		   <select class="form-control">
+				<option>Today</option>
+				<option>Tomorrow</option>
+				<option>Later</option>	
+		   </select>
+		   </center>
+            <a id="_home" href="#myPanel" class="ui-btn-left" data-icon="bars" style="background-color:#ffa627" data-iconpos="notext">Menu</a>
+            <input type="hidden" id="edt_mail" />
+        </div>
+		    <div data-role="panel" style="background:url('img/slider.png')no-repeat;" id="myPanel" data-display="push" data-position="left" data-theme="a">
+            <center><img src="img/profile.png"/>
+			<h5 style="color:white;margin-top: 0%;font-weight: 700;">Lucy</h5></center>
+			<br/><br/>
+			<div style="background:transparent !important;">
+            <ul data-role="listview" data-inset="false"> 
+           <li><a href="events.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture1.PNG"  class="ui-li-icon ">ALL EVENTS</a></li>
+            <li><a href="page6.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture2.PNG"  class="ui-li-icon ">PLANS</a></li>
+            <li><a href="profile.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture3.PNG"  class="ui-li-icon ui-corner-none">FOLLOWED</a></li>
+            <li><a href="explore.html"  data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture4.PNG"  class="ui-li-icon ui-corner-none">EXPLORE</a></li>
+            <li><a href="peopleplace.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/transicon.png"  class="ui-li-icon ui-corner-none">PEOPLE & PLACES</a></li>
+            <li><a href="ticket.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture6.PNG"  class="ui-li-icon ui-corner-none">MY TICKETS</a></li>
+            <li><a href="reward.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture7.PNG"  class="ui-li-icon ui-corner-none">REWARDS</a></li>
+            <li><a href="settings.html" data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture8.PNG"  class="ui-li-icon ui-corner-none">SETTINGS</a></li>
+            <li><a href="index.html"  data-ajax="false" rel="external" style="color: white;border-top:none;border-right:none;border-left:none;border-bottom:none;background: transparent;"><img src="img/capture1.PNG"  class="ui-li-icon ui-corner-none">SIGN OUT</a></li>
+
+				
+            </ul>
+			</div>
+        </div>
+          <div id="main_signup" data-role="content" style="padding:0em;">
+              <div class="panel panel-default">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26369980.933435403!2d-113.69148429601613!3d36.21539393254607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2s!4v1486547288131" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+			  </div>
+			  
+          </div>
+        </div>
+    </body>
+</html>

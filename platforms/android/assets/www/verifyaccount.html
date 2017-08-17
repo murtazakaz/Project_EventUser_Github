@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="lib/jquery-mobile/css/jquery.mobile-1.4.0.min.css" />
+        <script type="text/javascript" src="lib/jquery-mobile/js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-mobile-router/js/jquery.mobile.router.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-mobile/js/jquery.mobile-1.4.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/jqm-icon-pack-fa.css">
+        <title>Events</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+		 <script type="text/javascript" src="js/functions.js"></script>
+		<link rel="stylesheet" href="css/demo.css">
+		<link rel="stylesheet" href="css/sky-forms.css">
+    </head>
+    <body>
+         <div id="signup_page" data-theme="b" data-role="page" style="background-image: url('img/1.jpg'); background-size:cover">
+		 
+         
+		 <div id="header_signup" data-position="fixed" data-tap-toggle="false" data-role="header">
+                <h1>Email Verification</h1>
+          </div>
+		  <br><br><br><br><br>
+		 
+		
+          <div id="main_signup" data-role="content" style="padding: 10px;text-shadow: none;">
+		   <center>
+		 <p style="color: white;">Please enter your code that has been sent to your account</p>
+		 </center>
+              <form id="frmLogin">
+                  <div data-role="fieldcontain">
+                    <input type="text" class="inputfield" id="code" placeholder="Enter Code here" name="code" class="required name" data-clear-btn="true" />
+                 </div>
+                 
+				 <div data-role="main" class="ui-content" style="margin-top:-20px;">
+					<a onclick="verifycode()" data-ajax="false" rel="external"><button type="submit" id="signup" value="okay" >Verify Code </button></a>
+				 </div>
+              </form>
+          </div>
+          
+        </div>
+    
+    </body>
+</html>

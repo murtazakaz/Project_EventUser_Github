@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="lib/jquery-mobile/css/jquery.mobile-1.4.0.min.css" />
+        <script type="text/javascript" src="lib/jquery-mobile/js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-mobile-router/js/jquery.mobile.router.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-mobile/js/jquery.mobile-1.4.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/jqm-icon-pack-fa.css">
+        <title>Event</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+    </head>
+    <body>
+         <div id="login_page" data-role="page" style="background-image: url('img/1.jpg'); background-size:cover">
+          <div data-position="fixed" data-tap-toggle="false" data-role="content">
+            <center><img src="img/logo.png" /></center>
+          </div>
+          <div id="main_login" data-role="content" style="padding: 10px;">
+              
+			  <fieldset data-role="fieldcontain">
+                <input type="email" id="email" placeholder="Email" class="required email" >
+
+                <input type="password" placeholder="Password" id="password" class="required" >
+           
+			</fieldset>
+           	 
+			 <center> 
+			 <div style="width: 80%;">
+                  
+			<a onclick="signin()"  data-ajax="false" rel="external" style="text-decoration:none;"><button class="ui-btn ui-icon-key ui-btn-icon-left" data-transition="flip"  type="submit" id="logon" value="Login"  style="padding-left: 9px;border-radius: 50px;text-shadow: none; border: none;">Login </button></a>
+           
+		   <a href="signup.html" style="text-decoration:none;"><button class="ui-btn ui-icon-thumbs-up ui-btn-icon-left" data-transition="pop" type="submit" id="logon" value="Login" style="background:#189fd3;padding-left: 9px; border-radius: 50px;text-shadow: none;  border: none;">Register </button></a>   
+		   <br>
+		   <a style="color: white; text-shadow: none;" >Forget Password?</a>
+             <br><br>
+			 <a href="#"><img src="img/fb.png" style=" width: 30%;" /></a>
+             
+			 <a href="#"><img src="img/g.png" style="width: 24%;" /></a>
+                   
+               </div></center>
+           
+          </div>
+         </div>
+
+    
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
